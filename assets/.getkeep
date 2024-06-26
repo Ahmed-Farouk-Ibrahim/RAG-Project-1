@@ -1,0 +1,20 @@
+# In most projects, we should have a folder to put in all files that we dowloaded or created as assets or resources. We need git to see it, but we will make git ignore its content 
+
+# Git itself doesn't parse or interpret the contents of .gitkeep files. The comments can help other developers understand the purpose of the file or the directory it's in.
+
+# Note that the name .gitkeep is not a special Git file; it's a convention. You could name the file anything, but .gitkeep is widely recognized and understood in the development community. 
+
+# We create a .gitkeep file to ensure that an empty directory is tracked by Git. By default, Git does not track empty directories because it tracks files and their content. However, there are situations where maintaining the directory structure, even if the directories are currently empty, is important for your project.
+
+<!-- 
+Here are some reasons why you might use a .gitkeep file:
+
+Directory Structure: To maintain a specific directory structure that is necessary for the application or project to function correctly. For example, you might need certain directories to be present for logs, temporary files, or future content.
+
+Configuration and Setup: Some projects require certain directories to be present for configuration or setup scripts. By keeping these directories tracked in the repository, you ensure that anyone cloning the repository will have the correct structure.
+
+Collaboration: When multiple people are working on the same project, having a consistent directory structure is crucial. Using .gitkeep files ensures that all team members have the same structure, even if some directories are empty at the moment.
+
+Future Use: You might have plans to add files to these directories in the future. By tracking the directories now, you can avoid confusion or errors when those files are eventually added.
+
+-->
