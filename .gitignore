@@ -1,3 +1,5 @@
+# .gitignore is a file we put in filenames to tell github not track, files like cash files and other file I amn't interrested to track, 
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
