@@ -1,0 +1,5 @@
+fastapi==0.111.0
+uvicorn[standard]==0.30.1
+
+# In our project, we will upload files to FastApi, so w'll need python-multipart 
+python-multipart==0.0.9
