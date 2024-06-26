@@ -17,3 +17,9 @@ $ conda create -n Env-RAG-Project-1 python=3.8
 ```bash
 $ conda activate Env-RAG-Project-1
 ```
+
+### (Optional) Setup you Command Line Interface for better readability. For Ubuntu, make your code in new line
+
+```bash
+export PS1="\[\033[01;32m\]\u@\h:\w\n\[\033[00m\]\$ "
+```
