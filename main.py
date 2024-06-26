@@ -1,9 +1,10 @@
 from fastapi import FastAPI
+from dotenv import load_dotenv
+load_dotenv(".env")
+
+# From directory routes reach base.py file to call base_router decorator
+from routes import base
+
 app = FastAPI()
 
-# Use decorator so that if anyone send a request with my url + /welcome, convert him to this next function and execute its content:
-@app.get("/welcome")
-def welcome():
-    return {
-        "message": "Hello World!"
-    }
+app.include_router(base.base_router)
