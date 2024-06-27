@@ -1,8 +1,15 @@
-fastapi==0.111.0
-uvicorn[standard]==0.30.1
+fastapi==0.110.2
+uvicorn[standard]==0.29.0
 
 # In our project, we will upload files to FastApi, so w'll need python-multipart 
 python-multipart==0.0.9
 
 # This package allows you to load environment variables from a .env file into your application's environment.
 python-dotenv==1.0.1
+
+# pydantic-settings: A powerful library that helps manage configuration settings using Pydantic models. 
+# It integrates seamlessly with FastAPI and can be used to handle environment variables more effectively.
+pydantic-settings==2.2.1
+
+# aiofiles: Library for handling asynchronous file operations and working with Chunks.
+aiofiles==23.2.1
