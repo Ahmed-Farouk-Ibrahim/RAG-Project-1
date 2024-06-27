@@ -13,3 +13,6 @@ pydantic-settings==2.2.1
 
 # aiofiles: Library for handling asynchronous file operations and working with Chunks.
 aiofiles==23.2.1
+
+langchain==0.1.20
+PyMuPDF==1.24.3
